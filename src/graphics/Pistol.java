@@ -12,6 +12,7 @@ public class Pistol extends Weapon {
 
 	public void activateSpecial() {
 		long timeNow = System.currentTimeMillis();
+		// For every second that this pistol exists, it's damage goes up by one.
 		damage = originalDamage + (int)((timeNow - timeCreated) / 1000);
 		System.out.println(damage);
 	}

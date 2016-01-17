@@ -6,6 +6,9 @@ public class Game {
 	
 	public static void main(String[] args) {
 		Weapon shit = new Pistol("shit", 15);
+		
+		System.out.println("The weapon \"" + shit.getName() + "\" does " + shit.getDamage() + " damge.");
+		
 		shit.activateSpecial();
 		
 		try {
@@ -23,5 +26,7 @@ public class Game {
 		}
 		
 		shit.activateSpecial();
+		
+		System.out.println("The weapon \"" + shit.getName() + "\" does " + shit.getDamage() + " damge.");
 	}
 }
