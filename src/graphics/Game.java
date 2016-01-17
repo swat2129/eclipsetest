@@ -3,7 +3,7 @@ package graphics;
 import java.util.concurrent.TimeUnit;
 
 public class Game {
-	// added this comment
+	
 	public static void main(String[] args) {
 		Weapon shit = new Pistol("shit", 15);
 		shit.activateSpecial();
