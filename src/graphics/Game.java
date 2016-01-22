@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 public class Game {
 	
 	public static void main(String[] args) {
-		Weapon shit = new Pistol("shit", 15);
+		Weapon shit = new Pistol("pistol", 15);
 		
 		System.out.println("The weapon \"" + shit.getName() + "\" does " + shit.getDamage() + " damge.");
 		
