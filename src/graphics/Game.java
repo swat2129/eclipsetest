@@ -5,11 +5,11 @@ import java.util.concurrent.TimeUnit;
 public class Game {
 	
 	public static void main(String[] args) {
-		Weapon shit = new Pistol("pistol", 15);
+		Weapon gun = new Pistol("pistol", 15);
 		
-		System.out.println("The weapon \"" + shit.getName() + "\" does " + shit.getDamage() + " damge.");
+		System.out.println("The weapon \"" + gun.getName() + "\" does " + gun.getDamage() + " damge.");
 		
-		shit.activateSpecial();
+		gun.activateSpecial();
 		
 		try {
 			TimeUnit.SECONDS.sleep(5);
@@ -17,7 +17,7 @@ public class Game {
 			e.printStackTrace();
 		}
 		
-		shit.activateSpecial();
+		gun.activateSpecial();
 		
 		try {
 			TimeUnit.SECONDS.sleep(2);
@@ -25,8 +25,8 @@ public class Game {
 			e.printStackTrace();
 		}
 		
-		shit.activateSpecial();
+		gun.activateSpecial();
 		
-		System.out.println("The weapon \"" + shit.getName() + "\" does " + shit.getDamage() + " damge.");
+		System.out.println("The weapon \"" + gun.getName() + "\" does " + gun.getDamage() + " damge.");
 	}
 }
