@@ -1,11 +1,13 @@
 package graphics;
 
 /*
- * Singhung (Wilson) Wat
- * January 17, 2016
+ * Singhung (Wilson) Wat (big Cuck)
+ * January 17, 2016-
  * Abstract class for homework.
  */
-
+for (int u = 0; u < 4; u++){
+	System.out.println("u");
+}
 public abstract class Weapon {
 	
 	private String name;
